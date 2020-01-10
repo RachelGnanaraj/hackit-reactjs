@@ -1,0 +1,12 @@
+.features-component .placeholder {
+  text-align: center;
+  padding: 32px 0;
+  color: #999; }
+
+.features-component .no-results {
+  text-align: center;
+  padding-top: 32px;
+  color: #999; }
+
+.features-component .search-wrapper {
+  margin-bottom: 16px; }

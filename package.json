@@ -1,0 +1,52 @@
+{
+  "name": "project-management-tool",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.1",
+    "classnames": "^2.2.5",
+    "history": "^4.7.2",
+    "immutability-helper": "^2.6.4",
+    "material-ui": "^0.20.0",
+    "node-sass-chokidar": "^1.4.0",
+    "npm-run-all": "^4.1.2",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-responsive-carousel": "^3.1.51",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^3.3.0",
+    "react-slick": "^0.25.2",
+    "redux": "^3.7.2",
+    "redux-form": "^7.2.3",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "4",
+    "redux-persist-transform-filter": "^0.0.16",
+    "redux-thunk": "^2.2.0",
+    "shortid": "^2.2.8",
+    "slick-carousel": "^1.8.1"
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
+    "start-js": "react-scripts start",
+    "start": "npm-run-all -p watch-css start-js",
+    "build-js": "react-scripts build",
+    "build": "npm-run-all build-css build-js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

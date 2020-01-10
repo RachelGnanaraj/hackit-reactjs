@@ -1,0 +1,14 @@
+.items-list-component .title {
+  font-weight: bold;
+  max-width: 560px; }
+  .items-list-component .title.complete {
+    color: #ccc;
+    text-decoration: line-through; }
+
+.items-list-component .buttons-wrapper {
+  display: flex !important;
+  height: 100% !important;
+  align-items: center;
+  justify-content: center; }
+  .items-list-component .buttons-wrapper.tick {
+    margin-right: 80px; }

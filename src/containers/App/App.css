@@ -1,0 +1,10 @@
+.app-component .app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .app-component .app-container .app-content {
+    width: 800px;
+    margin: 80px 0;
+    padding: 38px 64px 64px 64px;
+    border-radius: 16px;
+    background-color: rgba(220, 220, 220, 0.1); }
